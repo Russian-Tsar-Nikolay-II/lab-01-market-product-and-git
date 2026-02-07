@@ -34,3 +34,4 @@ The user sends a message:
 
 - How exactly does message encryption work on the server?  
 - How is the load distributed between the Messaging Service servers?
+ - What goverments threaten Durov
