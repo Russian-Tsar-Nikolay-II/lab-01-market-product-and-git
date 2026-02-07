@@ -5,32 +5,32 @@
 
 ## Main components
 ![Telegram Component Diagram](./docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
-- **Messaging Service (Сервис сообщений)** — отвечает за отправку и получение сообщений между пользователями.  
-- **Media Storage (Хранилище медиа)** — хранит изображения, видео и другие файлы в облаке.  
-- **User Authentication (Аутентификация пользователей)** — управляет логином, регистрацией и сессиями.  
-- **Notification Service (Сервис уведомлений)** — отправляет push-уведомления о новых сообщениях.  
-- **Search Service (Сервис поиска)** — обеспечивает поиск по чатам и сообщениям.
+- **Messaging Service** — Responsible for sending and receiving messages between users.  
+- **Media Storage** — Stores images, videos and other files in the cloud.  
+- **User Authentication** — manages login, registration, and sessions.  
+- **Notification Service** — Sends push notifications about new messages.  
+- **Search Service** — Provides search by chats and messages.
 
 ## Data flow
-![Диаграмма последовательности Telegram](./docs/diagrams/out/telegram/sequence-diagram/Sequence%20Diagram.svg)
+![Diagram](./docs/diagrams/out/telegram/sequence-diagram/Sequence%20Diagram.svg)
 
-Пользователь отправляет сообщение:
-- **Messaging Service** получает сообщение и сохраняет его в **Media Storage**.  
-- Затем **Messaging Service** уведомляет **Notification Service**, который шлёт push-уведомление получателю.
+The user sends a message:
+- **Messaging Service** receives the message and stores it in **Media Storage**.  
+- Then the **Messaging Service** notifies the **Notification Service**, which sends a push notification to the recipient.
 
 ## Deployment
 
-![Диаграмма развёртывания Telegram](./docs/diagrams/out/telegram/deployment-diagram/Deployment%20Diagram.svg)
+![Diagram](./docs/diagrams/out/telegram/deployment-diagram/Deployment%20Diagram.svg)
 
-- **Messaging Service** и **Media Storage** развёрнуты в облаке.  
-- **Notification Service** подключён к push-сервисам Android/iOS.  
-- **User Authentication** работает на отдельных серверах для безопасности.
+- **Messaging Service** and **Media Storage** are deployed in the cloud.  
+- **Notification Service** is connected to Android/iOS push services.  
+- **User Authentication** runs on separate servers for security.
 
 ## Assumptions
-- Предполагаю, что Media Storage использует дедупликацию для оптимизации места.  
-- Предполагаю, что Notification Service обрабатывает миллионы уведомлений в реальном времени.
+- Media Storage uses deduplication to optimize space.  
+- Notification Service processes millions of notifications in real time.
 
 ## Open questions
 
-- Как именно работает шифрование сообщений на сервере?  
-- Как распределяется нагрузка между серверами Messaging Service?
+- How exactly does message encryption work on the server?  
+- How is the load distributed between the Messaging Service servers?
