@@ -30,35 +30,35 @@ I enjoy working with server‑side logic and want to build and control whole sys
 **Key skills/requirements:**
 - Python backend development experience  
 - Relational and NoSQL databases  
-- CI/CD, containers, virtualization :contentReference[oaicite:0]{index=0}
+
 
 ### 2) Python Backend Developer — ООО ПИПЛ КЭПИТАЛ  
 **Link:** https://hh.ru/vacancies/python-backend-developer  
 **Key skills/requirements:**
 - Python backend development  
 - Django/FastAPI framework knowledge  
-- Remote work option :contentReference[oaicite:1]{index=1}
+
 
 ### 3) Backend Developer Python (Middle) — Sberbank/Brandquad listings  
 **Link:** https://hh.ru/vacancies/python-backend-developer  
 **Key skills/requirements:**
 - Python backend development  
 - Experience with Python frameworks (Django, FastAPI)  
-- REST APIs :contentReference[oaicite:2]{index=2}
+
 
 ### 4) Middle Python Developer — various backend roles  
 **Link:** https://hh.ru/vacancies/middle-python-developer/ot_pryamih_rabotodateley  
 **Key skills/requirements:**
 - Python programming  
 - Backend logic development  
-- Team collaboration skills :contentReference[oaicite:3]{index=3}
+
 
 ### 5) Python Backend Developer — Fast Soft (St. Petersburg)  
 **Link:** https://spb.hh.ru/vacancies/python-backend-developer/polnaya_zanyatost  
 **Key skills/requirements:**
 - Backend development with Python  
 - Interest in APIs and business requirements  
-- Possible use of frameworks like Django/Flask :contentReference[oaicite:4]{index=4}
+
 
 ---
 
