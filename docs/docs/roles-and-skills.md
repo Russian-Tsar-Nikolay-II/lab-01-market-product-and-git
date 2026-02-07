@@ -2,7 +2,7 @@
 
 ### Role
 
-Back‑end engineer (Python)
+Back‑end engineer (с++)
 
 ### Why I chose this role  
 I enjoy working with server‑side logic and want to build and control whole systems rather than just parts of the application. I wanna be master of my Fate
